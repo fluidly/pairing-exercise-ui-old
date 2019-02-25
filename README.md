@@ -9,8 +9,9 @@ How to run:
 - Create a new branch
 - Run `yarn server`
 - In a separate process, run `yarn start`
-- Go to `localhost://3000` to view the basic hello world app
+- Go to `http://localhost:3000` to view the basic hello world app
 - Work from the `./src` folder in this directory
 - At the end of the test, commit candidate's code and push to GitHub
+- You can run tests with Jest: `yarn test`
 
 The master branch should be kept clean.
