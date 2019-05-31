@@ -1,0 +1,59 @@
+{
+  "rules": {
+    "eqeqeq": [2, "always"],
+    "quotes": [
+      2,
+      "single",
+      { "avoidEscape": true }
+    ],
+    "semi": [
+      2,
+      "never"
+    ],
+    "no-var": 2,
+    "no-console": 0,
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+    "prefer-const" : 2,
+    "react/no-unescaped-entities": 1,
+    "react/no-deprecated": 1,
+    "react/no-find-dom-node": 1,
+    "react/jsx-no-target-blank": 1,
+    "react/no-string-refs": 1,
+    "react/no-children-prop": 1,
+    "react/jsx-no-literals": 1
+
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "jest/globals": true,
+  },
+  "extends": [
+    "prettier",
+    "plugin:react/recommended",
+    "eslint:recommended",
+    "plugin:jest/recommended",
+  ],
+  "plugins": [
+    "react",
+    "jest",
+  ],
+  "settings": {
+    "flowtype": { "onlyFilesWithFlowAnnotation": true },
+    "react": {
+      "version": "detect"
+    }
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "globals": {
+    "Raven": true
+  }
+}

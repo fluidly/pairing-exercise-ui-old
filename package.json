@@ -17,7 +17,8 @@
     "server": "yarn nodemon index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint src --ext js,jsx --fix"
   },
   "proxy": "http://localhost:9000",
   "eslintConfig": {
@@ -30,6 +31,17 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jest": "^22.6.4",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "prettier": "^1.17.1",
     "react-testing-library": "^6.0.0"
   }
 }

@@ -1,13 +1,13 @@
-import React, { Component } from "react"
-import "./App.css"
+import React, { Component } from 'react'
+import './App.css'
 
 class App extends Component {
   state = {
-    data: null
+    data: null,
   }
 
   componentDidMount = () => {
-    fetch("/data")
+    fetch('/data')
       .then(res => res.json())
       .then(body => this.setState({ data: body.data }))
       .catch(console.log)
@@ -19,7 +19,7 @@ class App extends Component {
         <p>Hello world!</p>
         <pre>
           {this.state.data
-            ? JSON.stringify(this.state.data[0], null, "  ")
+            ? JSON.stringify(this.state.data[0], null, '  ')
             : null}
         </pre>
       </div>
