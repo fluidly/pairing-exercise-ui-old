@@ -9,7 +9,7 @@
     "nodemon": "^1.18.10",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "2.1.5"
+    "react-scripts": "3.2.0"
   },
   "scripts": {
     "start": "concurrently -k -p \"[{name}]\" -n \"react,server\" -c \"cyan.bold,green.bold\" \"npm run react\" \"npm run server\"",
