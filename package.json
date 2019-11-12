@@ -31,6 +31,8 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.3",
+    "@testing-library/react": "^9.3.2",
     "eslint": "^6.5.1",
     "eslint-config-prettier": "^6.4.0",
     "eslint-config-standard": "^12.0.0",
@@ -42,6 +44,7 @@
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-standard": "^4.0.1",
     "prettier": "^1.17.1",
+    "supertest": "^4.0.2",
     "typescript": "^3.6.4"
   },
   "engines": {
