@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "body-parser": "^1.18.3",
-    "concurrently": "^5.0.1",
+    "concurrently": "^5.0.2",
     "express": "^4.16.4",
     "nodemon": "^2.0.2",
     "react": "^16.12.0",
