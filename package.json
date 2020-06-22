@@ -35,7 +35,6 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^5.10.1",
     "@testing-library/react": "^10.3.0",
-    "eslint": "^7.3.0",
     "eslint-config-prettier": "^6.10.1",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-flowtype": "^5.1.3",
