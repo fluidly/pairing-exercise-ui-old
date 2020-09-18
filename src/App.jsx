@@ -5,7 +5,7 @@ const App = () => {
   const [data, setData] = useState(null)
 
   useEffect(() => {
-    fetch('/data')
+    fetch('/clients')
       .then(res => res.json())
       .then(body => setData(body.data))
       .catch(console.log)

@@ -18,7 +18,7 @@
     "react": "react-scripts start",
     "server": "nodemon index.js",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jest-environment-jsdom-sixteen",
     "eject": "react-scripts eject",
     "lint": "eslint src --ext js,jsx --fix"
   },
@@ -47,6 +47,7 @@
     "eslint-plugin-react": "^7.20.3",
     "eslint-plugin-react-hooks": "^4.1.2",
     "eslint-plugin-standard": "^4.0.1",
+    "jest-environment-jsdom-sixteen": "^1.0.3",
     "prettier": "^2.1.2",
     "supertest": "^4.0.2",
     "typescript": "^3.9.6"
