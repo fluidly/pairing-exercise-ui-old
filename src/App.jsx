@@ -6,19 +6,15 @@ const App = () => {
 
   useEffect(() => {
     fetch('/clients')
-      .then(res => res.json())
-      .then(body => setData(body.data))
+      .then((res) => res.json())
+      .then((body) => setData(body.data))
       .catch(console.log)
   }, [])
 
   return (
     <div className="App">
       <p>Hello world!</p>
-      <pre>
-        {data
-          ? JSON.stringify(data[0], null, '  ')
-          : null}
-      </pre>
+      <pre>{data ? JSON.stringify(data[0], null, '  ') : null}</pre>
     </div>
   )
 }
