@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div className="App">
       <p>Hello world!</p>
-      <pre>{data && data[0].name}</pre>
+      <pre>{data ? JSON.stringify(data[0], null, '  ') : null}</pre>
     </div>
   )
 }
