@@ -4,7 +4,7 @@ import App from './App'
 import clients from '../clients.json'
 import { renderAct } from './render'
 
-beforeEach(() => {
+beforeAll(() => {
   fetchMock.get('/clients', clients)
 })
 
