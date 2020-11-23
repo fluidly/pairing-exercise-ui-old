@@ -47,7 +47,7 @@
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-standard": "^4.1.0",
-    "fetch-mock": "^9.10.7",
+    "fetch-mock": "^9.11.0",
     "jest-environment-jsdom-sixteen": "^1.0.3",
     "node-fetch": "^2.6.1",
     "prettier": "^2.2.0",
