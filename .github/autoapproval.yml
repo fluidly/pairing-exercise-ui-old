@@ -1,0 +1,15 @@
+from_owner:
+  - dependabot-preview[bot]
+  - dependabot[bot]
+
+required_labels:
+  - dependencies
+
+blacklisted_labels:
+  - WIP
+  - DONT_MERGE
+
+apply_labels:
+  - merge
+
+
