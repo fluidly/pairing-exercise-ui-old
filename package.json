@@ -33,7 +33,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.5",
     "eslint-config-prettier": "^8.1.0",
     "eslint-config-standard": "^16.0.2",
